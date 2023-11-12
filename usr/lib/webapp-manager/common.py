@@ -177,6 +177,7 @@ class WebAppManager:
                 Browser(BROWSER_TYPE_FIREFOX, "Firefox Extended Support Release", "firefox-esr", "/usr/bin/firefox-esr"),
                 Browser(BROWSER_TYPE_FIREFOX_FLATPAK, "Firefox (Flatpak)", "/var/lib/flatpak/exports/bin/org.mozilla.firefox", "/var/lib/flatpak/exports/bin/org.mozilla.firefox"),
                 Browser(BROWSER_TYPE_FIREFOX_FLATPAK, "Firefox (Flatpak)", ".local/share/flatpak/exports/bin/org.mozilla.firefox", ".local/share/flatpak/exports/bin/org.mozilla.firefox"),
+                Browser(BROWSER_TYPE_FIREFOX, "Midori", "midori", "/opt/midori/midori"),
                 Browser(BROWSER_TYPE_CHROMIUM, "Brave", "brave", "/usr/bin/brave"),
                 Browser(BROWSER_TYPE_CHROMIUM, "Brave Browser", "brave-browser", "/usr/bin/brave-browser"),
                 Browser(BROWSER_TYPE_CHROMIUM, "Brave (Bin)", "brave-bin", "/usr/bin/brave-bin"),
